@@ -1,0 +1,116 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Adicione mais regras de reset conforme necessário */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&display=swap');
+
+:root {
+    --fonte-principal: 'Roboto Slab', sans-serif;
+  }
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte-principal);
+    background-color: #333;
+}
+
+
+
+
+
+.foto-perfil{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: 420px;
+    
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px; /* ajuste conforme necessário */
+    background-color: white;  
+}
+
+.h1-nome{
+   font-family: var(--fonte-principal);
+   font-size: 3.8rem;
+
+}
+.container-right h5,
+.container-right .h6 {
+    display: inline-block;
+    margin-right: 100px; /* Ajuste conforme necessário */
+}
+
+.container-left {
+    flex: 1;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-right {
+    flex: 2;
+    padding: 20px;
+    
+}
+
+.container-right > *:first-child {
+    margin-top:640px; /* Adicione esta linha */
+}
+
+.container-right li{
+    margin-left: 40px;
+}
+
+.profissao{
+    margin-top: 20px;
+}
+
+.icons{
+    margin-bottom: 150px;
+}
+
+.text-profissao{
+    margin-top: 90px; 
+    margin-bottom: -0px;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+}
+
+.icones, .container-left li {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.titulo, h5{
+    margin-top: 10px; 
+    font-family: var(--fonte-principal);
+}
+
+.h7, .text-li{
+    margin-top: 10px; 
+    font-family: var(--fonte-principal); 
+}
+
+.rodape{
+    
+}
